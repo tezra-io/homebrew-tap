@@ -15,7 +15,7 @@ class Fermix < Formula
   desc "Elixir-native multi-agent AI platform"
   homepage "https://github.com/tezra-io/fermix"
   version "0.1.0"
-  license "Apache-2.0"
+  license "MIT"
 
   # Bumper rewrites both blocks. Keep target strings in sync with
   # apps/fermix_core/lib/fermix/cli/upgrade/manifest.ex.
