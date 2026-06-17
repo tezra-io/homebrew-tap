@@ -14,32 +14,32 @@
 class Fermix < Formula
   desc "Elixir-native multi-agent AI platform"
   homepage "https://github.com/tezra-io/fermix"
-  version "0.2.3"
+  version "0.3.0"
   license "MIT"
 
   # Bumper rewrites both blocks. Keep target strings in sync with
   # apps/fermix_core/lib/fermix/cli/upgrade/manifest.ex.
   on_macos do
     on_arm do
-      url "https://github.com/tezra-io/fermix/releases/download/v0.2.3/fermix_macos_aarch64"
-      sha256 "00d7777ba1aa25840890ac8f088071d22867b309ca65e5a6ecf4ad4726eaa50d"
+      url "https://github.com/tezra-io/fermix/releases/download/v0.3.0/fermix_macos_aarch64"
+      sha256 "5a1a241592b8988b09daaab79e17f2712e6ce83e28dace1d270d280731fc90d4"
     end
 
     on_intel do
-      url "https://github.com/tezra-io/fermix/releases/download/v0.2.3/fermix_macos_x86_64"
-      sha256 "c76f5bb533f9d4c416d727a7f7bb2572e629882da824017c5281cb1426e71ed5"
+      url "https://github.com/tezra-io/fermix/releases/download/v0.3.0/fermix_macos_x86_64"
+      sha256 "d8d1a701419b5a4f8c9a3f8f68c4dbd33c65c69ae303edd0bf3e339c5b107e2f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/tezra-io/fermix/releases/download/v0.2.3/fermix_linux_aarch64"
-      sha256 "516e6eaec0bea33acf0f551daa6d965076c32a93c57702adfcffc2277b037c64"
+      url "https://github.com/tezra-io/fermix/releases/download/v0.3.0/fermix_linux_aarch64"
+      sha256 "27f5cf0e12c7a17e089a08a7b85bd60e3cef48938357f190a7db8c5fb998ff71"
     end
 
     on_intel do
-      url "https://github.com/tezra-io/fermix/releases/download/v0.2.3/fermix_linux_x86_64"
-      sha256 "266f0aee24093883c5c49b499c8ee0b138f5292c8302bbc7ea69f2f512631e65"
+      url "https://github.com/tezra-io/fermix/releases/download/v0.3.0/fermix_linux_x86_64"
+      sha256 "fe6eda106c933588e88ea91352cec553216926973605af619a39355c90aa463e"
     end
   end
 
