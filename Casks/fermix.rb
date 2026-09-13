@@ -1,6 +1,6 @@
 cask "fermix" do
-  version "0.1.0"
-  sha256 "7a660010629d6bfcf80554ad18123bf7358f5e45796f31c56e01b3ab684ea4a0"
+  version "0.1.2"
+  sha256 "76623baaf173ce4558136ee87965d409cdff72da9b81e7ea671ae73a2c0b1205"
 
   url "https://github.com/tezra-io/fermix-macos/releases/download/v#{version}/Fermix-#{version}.dmg"
   name "Fermix"
