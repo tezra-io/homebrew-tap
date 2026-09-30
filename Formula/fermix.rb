@@ -14,7 +14,7 @@
 class Fermix < Formula
   desc "Elixir-native multi-agent AI platform"
   homepage "https://github.com/tezra-io/fermix"
-  version "0.12.0"
+  version "0.12.1"
   license "MIT"
 
   # The daemon shells out to cosign to verify every plugin's signature before
@@ -26,25 +26,25 @@ class Fermix < Formula
   # apps/fermix_core/lib/fermix/cli/upgrade/manifest.ex.
   on_macos do
     on_arm do
-      url "https://github.com/tezra-io/fermix/releases/download/v0.12.0/fermix_macos_aarch64"
-      sha256 "b324d570d9dafb54be7fa79dbfeb53ad2956de5321bb1fc375e2e3f23937e895"
+      url "https://github.com/tezra-io/fermix/releases/download/v0.12.1/fermix_macos_aarch64"
+      sha256 "4df1f6f9a007b6b81bd566a6541ec59e7df67fec35e6170e489183cdb5d2bec3"
     end
 
     on_intel do
-      url "https://github.com/tezra-io/fermix/releases/download/v0.12.0/fermix_macos_x86_64"
-      sha256 "15cdee67ac3ebe2488436c195201a4b207a3b2dc03d94012b680f65d93bc0dad"
+      url "https://github.com/tezra-io/fermix/releases/download/v0.12.1/fermix_macos_x86_64"
+      sha256 "cad7d935eeb3f9bf8cd0e9340bcff5d83113b4c9a2f84f2382c9491933367a38"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/tezra-io/fermix/releases/download/v0.12.0/fermix_linux_aarch64"
-      sha256 "a36e6796a0a8ffce79061bc2224cde8861b5379dc8e5ba62cceafe294e7450b2"
+      url "https://github.com/tezra-io/fermix/releases/download/v0.12.1/fermix_linux_aarch64"
+      sha256 "5fa944bdf2f37456143c64cd1763fe6fda8a7f7aec1302e1813e416c7b227780"
     end
 
     on_intel do
-      url "https://github.com/tezra-io/fermix/releases/download/v0.12.0/fermix_linux_x86_64"
-      sha256 "68f0b289055ff5a82154ce744eddb0b4bc986e7144c0e4adabf4115df76e9d53"
+      url "https://github.com/tezra-io/fermix/releases/download/v0.12.1/fermix_linux_x86_64"
+      sha256 "d4a13b2384af57f9a566a3c881b9d4892d4548b1bb1544a43b4d9e79e7668047"
     end
   end
 
