@@ -2,10 +2,10 @@ cask "fermix" do
   version "0.6.0"
   sha256 "257972173ea2e0c2436a4dfacae7f79be635fbc64785d96abaaa2cf6144c4d5a"
 
-  url "https://github.com/tezra-io/fermix-macos/releases/download/v#{version}/Fermix-#{version}.dmg"
+  url "https://download.fermix.ai/macos/v#{version}/Fermix-#{version}.dmg"
   name "Fermix"
   desc "Assistant that runs locally and answers wherever you message it"
-  homepage "https://github.com/tezra-io/fermix-macos"
+  homepage "https://fermix.ai/"
 
   depends_on macos: :sequoia
 
